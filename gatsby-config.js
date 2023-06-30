@@ -19,7 +19,6 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-csp',
     {
       resolve: 'gatsby-plugin-gatsby-cloud',
       options: {
