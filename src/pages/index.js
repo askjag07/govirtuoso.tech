@@ -382,7 +382,7 @@ export function Head() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta
         name="keywords"
-        content="Programming Camp, Coding Camp, JavaScript Classes, Software Training, JavaScript Training, Software Camp, JavaScript Camp, Software Classes"
+        content="Go Virtuoso!, Go Virtuoso, Virtuoso, Virtuoso!,JavaScript Classes, Software Training, JavaScript Training, Software Camp, JavaScript Camp, Software Classes"
       />
       <meta charset="utf-8" />
       <meta name="author" content="Akshaj Jagarapu" />
