@@ -30,34 +30,3 @@ a,
     min-width: 30%;
   }
 }
-
-#register,
-#login {
-  max-width: 400px;
-}
-@media (max-width: 400px) {
-  #register,
-  #login {
-    min-height: 100vh;
-  }
-}
-@media (min-width: 400px) and (min-height: 780px) {
-  #register {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-  }
-}
-@media (min-width: 400px) and (min-height: 410px) {
-  #login {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-  }
-}
