@@ -1,27 +1,44 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "virtuoso",
+  "author": "Akshaj Jagarapu <askjag07@gmail.com> (https://govirtuoso.tech)",
+  "homepage": "https://govirtuoso.tech",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "0BSD",
+  "license": "UNLICENSED",
+  "description": "Free JavaScript classes full of critical thinking activities, enriching code labs, inspiring projects, and more. Learn quintessential skills required for competing in this age of technology.",
+  "version": "4.0.0",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "start": "npm run format && gatsby clean && gatsby build && gatsby serve",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "npm run format && gatsby clean && gatsby develop",
+    "format": "prettier --write \"**/*.{js,scss,json}\"",
+    "lighthouse": "lighthouse https://govirtuoso.tech/ --view --output-path=./lighthouse/results__v4.0.0.html"
   },
   "dependencies": {
+    "bootstrap": "^5.3.0",
     "gatsby": "^5.11.0",
+    "gatsby-plugin-csp": "^1.1.4",
+    "gatsby-plugin-gatsby-cloud": "^5.11.0",
+    "gatsby-plugin-image": "^3.11.0",
+    "gatsby-plugin-manifest": "^5.11.0",
+    "gatsby-plugin-offline": "^6.11.0",
+    "gatsby-plugin-purgecss": "^6.2.1",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sass": "^6.11.0",
+    "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-plugin-sitemap": "^6.11.0",
+    "gatsby-source-filesystem": "^5.11.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.63.6"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/askjag07/govirtuoso.tech"
   }
 }

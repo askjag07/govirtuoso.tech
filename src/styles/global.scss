@@ -1,0 +1,69 @@
+@import '~bootstrap/scss/bootstrap';
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a,
+.btn-link {
+  text-decoration: none;
+}
+.disabled-link {
+  pointer-events: none;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.icon {
+  height: 52px;
+  width: 52px;
+}
+
+.center {
+  top: calc(50% - 1rem);
+  left: calc(50% - 1rem);
+}
+
+.sessions {
+  min-width: 200px;
+}
+@media (min-width: 991px) {
+  .sessions {
+    min-width: 30%;
+  }
+}
+
+#register,
+#login {
+  max-width: 400px;
+}
+@media (max-width: 400px) {
+  #register,
+  #login {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 400px) and (min-height: 780px) {
+  #register {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+@media (min-width: 400px) and (min-height: 410px) {
+  #login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
