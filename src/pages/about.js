@@ -104,9 +104,9 @@ export default function About() {
               time, was a very special one who inspired me to go beyond the
               curriculum. For months, I had marched forward, mastering complex,
               enterprise-grade tools, until I reached a dead end. I had new
-              interests, but I couldn't let it go to waste. This, coupled with
-              my avid programming skills, created the interactive programming
-              school, Virtuoso, to pass on my knowledge and passion.
+              interests, but I couldn't let my experiences go to waste. This,
+              coupled with my avid programming skills, created the interactive
+              programming school, Virtuoso, to pass on my knowledge and passion.
             </p>
           </blockquote>
           <figcaption className="blockquote-footer">
@@ -170,6 +170,7 @@ export function Head() {
         name="keywords"
         content="Programming Camp, Coding Camp, JavaScript Classes, Software Training, JavaScript Training, Software Camp, JavaScript Camp, Software Classes"
       />
+      <meta charset="utf-8" />
       <meta name="author" content="Akshaj Jagarapu" />
       <script type="application/ld+json">
         {`
