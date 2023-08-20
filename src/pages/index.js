@@ -362,9 +362,40 @@ export default function Home() {
       </div>
       <div className="row justify-content-center align-items-center p-5 m-5">
         <div className="col-6 d-grid">
-          <span className="d-block btn btn-primary btn-lg shadow-lg disabled">
-            Registration Ended
-          </span>
+          <a
+            target="_blank"
+            href="/C1.zip"
+            className="btn btn-primary me-3 mb-3 shadow-sm align-middle"
+            download
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="mb-1"
+              viewBox="0 0 16 16"
+            >
+              <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z" />
+            </svg>
+            &nbsp; Download the Coursework &nbsp;
+          </a>
+          <a
+            href="/about"
+            className="btn btn-outline-primary me-3 mb-3 shadow-sm align-middle"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="mb-1"
+              viewBox="0 0 512 512"
+            >
+              <path d="M256 512a256 256 0 100-512 256 256 0 100 512zm-40-176h24v-64h-24c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-80c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 110 64 32 32 0 110-64z"></path>
+            </svg>
+            &nbsp; Learn More
+          </a>
         </div>
       </div>
     </Header>
@@ -384,7 +415,7 @@ export function Head() {
         name="keywords"
         content="Go Virtuoso!, Go Virtuoso, Virtuoso, Virtuoso!,JavaScript Classes, Software Training, JavaScript Training, Software Camp, JavaScript Camp, Software Classes"
       />
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta name="author" content="Akshaj Jagarapu" />
       <script type="application/ld+json">
         {`

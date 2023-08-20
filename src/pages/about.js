@@ -148,9 +148,42 @@ export default function About() {
       </div>
       <div className="row justify-content-center align-items-center p-5 m-5">
         <div className="col-6 d-grid">
-          <span className="d-block btn btn-primary btn-lg shadow-lg disabled">
-            Registration Ended
-          </span>
+          <a
+            target="_blank"
+            href="/C1.zip"
+            className="btn btn-primary me-3 mb-3 shadow-sm align-middle"
+            download
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="mb-1"
+              viewBox="0 0 16 16"
+            >
+              <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z" />
+            </svg>
+            &nbsp; Download the Coursework &nbsp;
+          </a>
+          <a
+            href="https://github.com/askjag07/virtuoso-app"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="btn btn-outline-primary me-3 mb-3 shadow-sm align-middle"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="mb-1"
+              viewBox="0 0 640 512"
+            >
+              <path d="M64 96c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256h-64V96H128v256H64V96zM0 403.2C0 392.6 8.6 384 19.2 384h601.6c10.6 0 19.2 8.6 19.2 19.2 0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zm112-34l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"></path>
+            </svg>
+            &nbsp; See the Code&nbsp;
+          </a>
         </div>
       </div>
     </Header>
@@ -170,7 +203,7 @@ export function Head() {
         name="keywords"
         content="Go Virtuoso!, Go Virtuoso, Virtuoso, Virtuoso!,JavaScript Classes, Software Training, JavaScript Training, Software Camp, JavaScript Camp, Software Classes"
       />
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta name="author" content="Akshaj Jagarapu" />
       <script type="application/ld+json">
         {`

@@ -24,7 +24,7 @@ export function Head() {
         name="keywords"
         content="Go Virtuoso!, Go Virtuoso, Virtuoso, Virtuoso!,JavaScript Classes, Software Training, JavaScript Training, Software Camp, JavaScript Camp, Software Classes"
       />
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta name="author" content="Akshaj Jagarapu" />
       <script type="application/ld+json">
         {`
