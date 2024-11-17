@@ -54,7 +54,7 @@ export default class Header extends React.Component {
               </a>
               <a
                 className="navbar-nav-svg text-dark pb-1 ps-2"
-                href="https://www.linkedin.com/in/askjag07"
+                href="www.linkedin.com/in/akshaj-jagarapu"
                 target="_blank"
                 rel="noreferrer noopener"
               >
